@@ -164,7 +164,7 @@ private:
 	}
 	float compareF(const vector <float>& main, const vector <float>& notmain)//сравнение файлов file& main, const file& notmain
 	{
-		int persent = 0;
+		float persent = 0;
 		for (int i = 0; i < main.size(); ++i)
 		{
 
@@ -194,6 +194,11 @@ private:
 				}
 			}
 		}
+		//log
+		cout << "current file: " << main << endl;
+		cout << "comparing with: " << notmain << endl << endl;
+		print_table();
+		cout << endl;
 	}
 
 	void print_table()
@@ -226,6 +231,12 @@ private:
 			}
 			cout << endl;
 		}
+		//log
+		for (i = 0; i < result_size * 10; ++i)
+		{
+			cout << "-";
+		}
+		cout << endl;
 	}
 
 public:
@@ -249,6 +260,7 @@ public:
 	}
 	void get_dir()
 	{
+		cout << "dir: " << pat << endl;
 		if (auto dir = opendir(to))
 		{
 
