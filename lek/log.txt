@@ -1,0 +1,70 @@
+dir: C:/Users/PC/Desktop/well/
+;
+-2 2
+File: cx1.csv
+File: cx2.csv
+File: cx3.csv
+File: fc.csv
+
+Number of files:4
+
+current file: cx1.csv
+comparing with: cx2.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	0%	0%	
+cx2.csv	100%	-	0%	0%	
+cx3.csv	0%	0%	-	0%	
+fc.csv	0%	0%	0%	-	
+----------------------------------------
+current file: cx1.csv
+comparing with: cx3.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0%	
+cx2.csv	100%	-	0%	0%	
+cx3.csv	100%	0%	-	0%	
+fc.csv	0%	0%	0%	-	
+----------------------------------------
+current file: cx1.csv
+comparing with: fc.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0.5%	
+cx2.csv	100%	-	0%	0%	
+cx3.csv	100%	0%	-	0%	
+fc.csv	0.5%	0%	0%	-	
+----------------------------------------
+current file: cx2.csv
+comparing with: cx3.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0.5%	
+cx2.csv	100%	-	100%	0%	
+cx3.csv	100%	100%	-	0%	
+fc.csv	0.5%	0%	0%	-	
+----------------------------------------
+current file: cx2.csv
+comparing with: fc.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0.5%	
+cx2.csv	100%	-	100%	0.5%	
+cx3.csv	100%	100%	-	0%	
+fc.csv	0.5%	0.5%	0%	-	
+----------------------------------------
+current file: cx3.csv
+comparing with: fc.csv
+
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0.5%	
+cx2.csv	100%	-	100%	0.5%	
+cx3.csv	100%	100%	-	0.5%	
+fc.csv	0.5%	0.5%	0.5%	-	
+----------------------------------------
+	cx1.csv	cx2.csv	cx3.csv	fc.csv	
+cx1.csv	-	100%	100%	0.5%	
+cx2.csv	100%	-	100%	0.5%	
+cx3.csv	100%	100%	-	0.5%	
+fc.csv	0.5%	0.5%	0.5%	-	
+----------------------------------------
